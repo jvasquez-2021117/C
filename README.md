@@ -40,7 +40,7 @@ Cuenta con tres roles, usuario, moderador y administrador. El sistema cuenta con
 [![CBack.png](https://i.postimg.cc/vmSQntgm/CBack.png)](https://postimg.cc/v1fFF9vR)
 [![CFront.png](https://i.postimg.cc/DyK71ZZ1/CFront.png)](https://postimg.cc/NLphcQR0)
 
-###Paso 3
+### Paso 3
 <p>
 Recuerda que este paso tienes que hacerlo en la terminal de la carpeta "C-Back" y "C-Front"
 </p>
@@ -49,7 +49,7 @@ Recuerda que este paso tienes que hacerlo en la terminal de la carpeta "C-Back" 
 
 [![npm-run-dev.png](https://i.postimg.cc/mrTcjjgN/npm-run-dev.png)](https://postimg.cc/K1svvnLR)
 
-###Paso 4
+### Paso 4
 
 [![url.png](https://i.postimg.cc/tTxYCMSb/url.png)](https://postimg.cc/TLTRtCvN)
 
