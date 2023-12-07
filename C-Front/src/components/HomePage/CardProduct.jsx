@@ -68,7 +68,7 @@ export const CardProduct = ({ _id, image, user, title, price, quantity, image2, 
                 <p><b>{title}</b></p>
               </div>
               <p>Unidades: {quantity}</p>
-              <button onClick={handleOpenSellModal} className='btn__buy' style={ modal ? { display: 'none' } : {}}>Comprar</button>
+              <button onClick={handleOpenSellModal} className='btn__buy' style={ viewBtnBuy ? { display: 'none' } : {}}>Comprar</button>
             </div>
             <SellModal
             id={_id}
