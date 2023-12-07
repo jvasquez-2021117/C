@@ -46,10 +46,14 @@ export const LoginPage = () => {
                 Swal.fire({
                     icon: 'success',
                     title: data.message
-                });
-            }
-            
-            navigate('/');
+                    });
+                    navigate('/');
+                }else{
+                    Swal.fire({
+                    icon: 'info',
+                    title: data.message
+                    });
+                }
         } catch (err) {
             console.log(err);
         }

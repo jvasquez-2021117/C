@@ -12,6 +12,7 @@ export const CardProduct = ({ _id, image, user, title, price, quantity, image2, 
   const { loggedIn, dataUser } = useContext(AuthContext);
   const navigate = useNavigate();
   const [titleUser, setTitleUser] = useState('');
+  const [viewBtnBuy, setViewBtnBuy] = useState(modal);
 
 
   const [showModalSell, setShowModalSell] = useState(false);
@@ -49,6 +50,7 @@ export const CardProduct = ({ _id, image, user, title, price, quantity, image2, 
     }
     if(email == dataUser.email){
       setTitleUser('Tu publicación');
+      setViewBtnBuy(true);
     }else{
       setTitleUser(user)
     }
