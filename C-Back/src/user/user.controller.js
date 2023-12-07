@@ -70,7 +70,7 @@ exports.login = async(req, res) => {
             }
             return res.status(200).send({message: 'User logged sucessfully', token, userLogged});
         }
-        return res.status(204).send({message: 'Invalid credentials'});
+        return res.status(200).send({message: 'Invalid credentials'});
     }catch(err){
         console.error(err);
         return res.status(500).send({message: 'Error not logged', Error: err.message});
